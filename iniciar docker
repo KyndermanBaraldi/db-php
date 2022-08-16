@@ -1,0 +1,10 @@
+# iniciar docker
+sudo service docker start
+
+# abrir terminal
+    docker exec {name} -it bin/bash
+
+#abrir mysql
+mysql -uroot -p
+# docker compose
+docker-compose exec {service} comando argumentos
